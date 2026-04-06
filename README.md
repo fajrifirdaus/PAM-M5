@@ -265,18 +265,15 @@ fun NoteColor.toColor(isDarkMode: Boolean): Color =
 
 | Screen | Screenshot | Deskripsi |
 |---|---|---|
-| Notes (Tab 1) | ![Notes](screenshots/screenshot_note_list.png) | Tab Catatan — daftar note dengan FAB dan hamburger menu |
-| Favorites (Tab 2) | ![Favorites](screenshots/screenshot_favorites.png) | Tab Favorit — note yang ditandai favorit |
-| Profile (Tab 3) | ![Profile](screenshots/screenshot_profile.png) | Tab Profil — profil pengguna dengan dark mode toggle |
-| Note Detail | ![Note Detail](screenshots/screenshot_note_detail.png) | Detail catatan — menampilkan noteId, judul, isi |
-| Add Note | ![Add Note](screenshots/screenshot_add_note.png) | Form tambah catatan — color picker + input |
-| Edit Note | ![Edit Note](screenshots/screenshot_edit_note.png) | Form edit catatan — prefill dari data existing |
-| Navigation Drawer | ![Drawer](screenshots/screenshot_drawer.png) | Navigation Drawer — menu slide dari kiri (BONUS) |
-| Dark Mode | ![Dark Mode](screenshots/screenshot_dark_mode.png) | Dark mode aktif — semua screen dalam tema gelap |
-
-### Navigation Flow Diagram
-
-![Navigation Flow](screenshots/navigation_flow_diagram.jpg)
+| Notes (Tab 1) | ![Image](https://github.com/user-attachments/assets/b35d6c29-d47c-4b5b-9556-1705f014949b) | Tab Catatan — daftar note dengan FAB dan hamburger menu |
+| Favorites (Tab 2) | ![Image](https://github.com/user-attachments/assets/cbe54e27-3b41-4b13-ae0a-0665a7c4f83d) | Tab Favorit — note yang ditandai favorit |
+| Profile (Tab 3) | ![Image](https://github.com/user-attachments/assets/21d1c923-d250-405a-a1d7-2c1de694b42d) | Tab Profil — profil pengguna dengan dark mode toggle |
+| Note Detail | ![Image](https://github.com/user-attachments/assets/213ae29f-e300-42ae-b50f-cd919dc81d0f) | Detail catatan — menampilkan noteId, judul, isi |
+| Add Note | ![Image](https://github.com/user-attachments/assets/baee1f96-adbf-4f12-9e04-6ba04e0c115e) | Form tambah catatan — color picker + input |
+| Edit Note | ![WhatsApp Image 2026-04-06 at 11 44 45 (2)](https://github.com/user-attachments/assets/9e1bf218-1a75-4e0f-8856-f361c51a1fab)
+ | Form edit catatan — prefill dari data existing |
+| Navigation Drawer | ![Image](https://github.com/user-attachments/assets/076171a6-dd32-437a-b177-92be403eebc7) | Navigation Drawer — menu slide dari kiri (BONUS) |
+| Dark Mode | ![Image](https://github.com/user-attachments/assets/2bdeaea6-f172-45fa-ae44-b6ecfdc72bd6) | Dark mode aktif — semua screen dalam tema gelap |
 
 ---
 

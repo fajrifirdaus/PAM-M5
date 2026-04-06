@@ -293,6 +293,43 @@ fun NoteColor.toColor(isDarkMode: Boolean): Color =
 
 ---
 
+## 🖼️ Screenshots
+
+> **Catatan:** Ganti bagian ini dengan screenshot aktual dari emulator/device setelah menjalankan aplikasi.
+
+| Screen | Screenshot | Deskripsi |
+|---|---|---|
+| Notes (Tab 1) | ![Notes](screenshots/screenshot_note_list.png) | Tab Catatan — daftar note dengan FAB dan hamburger menu |
+| Favorites (Tab 2) | ![Favorites](screenshots/screenshot_favorites.png) | Tab Favorit — note yang ditandai favorit |
+| Profile (Tab 3) | ![Profile](screenshots/screenshot_profile.png) | Tab Profil — profil pengguna dengan dark mode toggle |
+| Note Detail | ![Note Detail](screenshots/screenshot_note_detail.png) | Detail catatan — menampilkan noteId, judul, isi |
+| Add Note | ![Add Note](screenshots/screenshot_add_note.png) | Form tambah catatan — color picker + input |
+| Edit Note | ![Edit Note](screenshots/screenshot_edit_note.png) | Form edit catatan — prefill dari data existing |
+| Navigation Drawer | ![Drawer](screenshots/screenshot_drawer.png) | Navigation Drawer — menu slide dari kiri (BONUS) |
+| Dark Mode | ![Dark Mode](screenshots/screenshot_dark_mode.png) | Dark mode aktif — semua screen dalam tema gelap |
+
+### Navigation Flow Diagram
+
+![Navigation Flow](screenshots/navigation_flow_diagram.jpg)
+
+---
+
+## 🎬 Video Demo
+
+**File:** `demo_week5.mp4` (≤ 30 detik)
+
+Urutan demo yang disarankan:
+
+1. Buka app → tampil `NotesScreen`
+2. Buka Navigation Drawer (swipe dari kiri / tap hamburger icon)
+3. Tap catatan → `NoteDetailScreen` (lihat noteId sebagai argument)
+4. Tap Edit → `EditNoteScreen` → Simpan → kembali ke list
+5. Tap FAB (+) → `AddNoteScreen` → isi form → Simpan
+6. Tap tab Favorit → `FavoritesScreen`
+7. Tap tab Profil → toggle Dark Mode → semua screen berubah tema
+
+---
+
 ## 📊 Rubrik Penilaian
 
 | Komponen | Bobot | Status |

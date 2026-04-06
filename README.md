@@ -279,7 +279,7 @@ fun NoteColor.toColor(isDarkMode: Boolean): Color =
 
 ## 🎬 Video Demo
 
-**File:** `demo_week5.mp4` (≤ 30 detik)
+**File:** [demo_week5.mp4](https://drive.google.com/file/d/1XXfHFZrsf-4C73i0R3mV3b_Fqd_wTZwl/view?usp=sharing) (≤ 30 detik)
 
 Urutan demo yang disarankan:
 

@@ -51,41 +51,7 @@ Mengembangkan **Notes App** dari tugas minggu 4 (State Management & MVVM) dengan
 
 ## 🗺️ Navigation Flow Diagram
 
-```
-MainActivity
-    │
-    ▼
-AppNavigation
-(ModalNavigationDrawer + NavHost + Scaffold)
-    │
-    ▼
-Bottom Navigation Bar  ──────────────────────────────────────────────┐
-    │                                                                 │
-    ├─── Tab 1: notes ──► NotesScreen                                │
-    │         │                                                       │
-    │         ├─ FAB (+) ──────────────────► add_note                │
-    │         │                              AddNoteScreen            │
-    │         │                              └── popBackStack() ◄────┘
-    │         │
-    │         └─ tap card ─► note_detail/{noteId}  ← NavType.IntType
-    │                        NoteDetailScreen
-    │                        └── edit ─► edit_note/{noteId} ← NavType.IntType
-    │                                   EditNoteScreen
-    │                                   └── popBackStack()
-    │
-    ├─── Tab 2: favorites ──► FavoritesScreen
-    │         │
-    │         └─ tap card ─► note_detail/{noteId}  (sama seperti di atas)
-    │
-    └─── Tab 3: profile ──► ProfileScreen
-                            (diadaptasi dari Tugas Minggu 4)
-
-Navigation Drawer (BONUS)
-    ├── settings ──► SettingsScreen
-    │               └── popBackStack()
-    └── about    ──► AboutScreen
-                    └── popBackStack()
-```
+![Image](https://github.com/user-attachments/assets/7e966e3b-6ebe-42cf-8f2f-40face60b66e)
 
 ---
 
